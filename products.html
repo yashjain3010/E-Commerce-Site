@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logofinal.jpg" width="125px" alt="Redstore"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="products.html">Products</a></li>
+                        <li> <a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+     <div class="small-container">
+            <div class="row row-2">
+                <h2> All Products </h2>
+                <select>
+                    <option> Default Sorting </option>
+                    <option> Sort by Price</option>
+                    <option> Sort by Popularity</option>
+                    <option> Sort by Rating</option>
+                    <option> Sort by Sale</option>
+                </select>
+            </div>
+
+
+         <div class="row">
+             <div class="col-4">
+                 <a href="/product-detail01.html"><img src="images/Products/product-1.jpg" ></a>
+                 <a href="/product-detail01.html"><h4> Red Printed T-shirt</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                 </div>
+                 <p>Rs 300</p>
+             </div>
+             <div class="col-4">
+                <a href="product-detail02.html"><img src="images/Products/product-2/WhatsApp Image 2023-05-21 at 11.45.57 AM (1).jpeg" ></a>
+                 <a href="product-detail02.html"><h4>Black Shoes HRX</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 850</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail03.html"><img src="images/Products/product-3/Screenshot_2023-05-21-13-51-21-24_c4b2fae5edd267b2847f1b32e9bc41c3.jpg" ></a>
+                 <a href="product-detail03.html"><h4>Black Trouser</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    
+                </div>
+                <p>Rs 1150</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail04.html"><img src="images/Products/product-4/Screenshot_2023-05-21-12-05-41-40_df198e732186825c8df26e3c5a10d7cd.jpg" ></a>
+                 <a href="product-detail04.html"><h4>Navy-Blue puma t-shirt</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 550</p>
+            </div>
+        </div>
+
+            
+         <div class="row">
+            <div class="col-4">
+                <a href="product-detail05.html"><img src="images/Products/product-5/Screenshot_2023-05-21-12-17-54-16_b646f155b0cdad03173576752c921a5a.jpg" ></a>
+                <a href="product-detail05.html"><h4>Grey Shoes</h4></a>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 1250 </p>
+            </div>
+            <div class="col-4">
+                <a href="product-details06.html"><img src="images/Products/product-6/Screenshot_2023-05-21-12-21-13-31_c4b2fae5edd267b2847f1b32e9bc41c3.jpg" ></a>
+                <a href="product-details06.html"><h4>Black puma t-shirt</h4></a>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs 950</p>
+           </div>
+           <div class="col-4">
+               <a href="product-details07.html"><img src="images/Products/product-7/Screenshot_2023-05-21-12-26-30-01_b646f155b0cdad03173576752c921a5a.jpg" ></a>
+                <a href="product-details07.html"><h4>HRX Socks</h4></a>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs 250</p>
+           </div>
+           <div class="col-4">
+               <a href="product-details08.html"><img src="images/Products/product-8/Screenshot_2023-05-21-12-31-38-06_df198e732186825c8df26e3c5a10d7cd.jpg" ></a>
+                <a href="product-details08.html"><h4>Black Watch</h4></a>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs 350</p>
+           </div>  
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <a href="product-detail-9.html"><img src="images/Products/product-9/WhatsApp Image 2023-06-20 at 6.31.04 PM.jpeg" ></a>
+                 <a href="product-detail-9.html"><h4>Smart Watch 2.0</h4></a>
+                 <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 2250</p>
+            </div>
+            
+            <div class="col-4">
+                <a href="product-detail-10.html">
+
+               <img src="images/Products/product-10/blackshoe1.jpg" >
+               </a>
+               <h4> Grey Running Shoes</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs 1650</p>
+           </div>
+           <div class="col-4">
+            <a href="product-detail-11.html">
+
+               <img src="images/Products/product-11.jpg" >
+            </a>
+               <h4> Grey Walking Shoes</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs 850</p>
+           </div>
+           <div class="col-4">
+            <a href="product-detail-12.html">
+
+               <img src="images/Products/product-12.jpg" ></a>
+               <h4> Black Jogger</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs 650</p>
+           </div>
+            
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+     </div>
+
+        <!-- footer  -->
+
+        <div class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download App for Android and ios mobile phone</p>
+                  <div class="app-logo">
+                    <img src="images/play-store.png" alt="" />
+                    <img src="images/app-store.png" alt="" />
+                  </div>
+                </div>
+                <div class="footer-col-2">
+                  <img src="images/logofinal.jpg" />
+                  <p>
+                    Our Purpose is the Sustainably Makes the Pleasure and Benifits of
+                    Sports Accessible to the Many.
+                  </p>
+                </div>
+                <div class="footer-col-3">
+                  <h3>Useful Needs</h3>
+                  <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                  </ul>
+                </div>
+                <div class="footer-col-3">
+                  <h3>Follow us</h3>
+                  <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <hr />
+              <p class="copyright">
+                | Copyright &copy; 2023 - www.velocsports.com | All right reserved
+              </p>
+            </div>
+          </div>
+
+        <!-- js for toogle menu  -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight="0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight=="0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+</body>
+
+</html>
